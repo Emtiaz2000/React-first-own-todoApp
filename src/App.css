@@ -36,3 +36,65 @@
     transform: rotate(360deg);
   }
 }
+
+.todo_header h1{
+  color:#fff;
+}
+.todo_footer_btn{
+  height:100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.todo_footer_btn .clear_all{
+  height:30px;
+  padding:5px;
+  border:1px solid #61dafb;
+  background: #000;
+  color:#fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.todo_form_label span{
+  display: block;
+  color:#fff;
+  padding:10px;
+}
+.todo_form_label input{
+  height:24px;
+  border:1px solid #61dafb;
+  padding:3px 10px;
+  outline: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.todo_form button{
+  height:30px;
+  padding:5px;
+  border:1px solid #61dafb;
+  background: #000;
+  color:#fff;
+  cursor: pointer;
+  border-radius: 4px;
+  margin:5px;
+}
+.single_todo{
+  background: #fff;
+  width:50%;
+  margin:auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:5px;
+  margin-bottom:5px;
+  padding:0px 10px;
+}
+.single_todo span{
+  cursor: pointer;
+  transition: .4s ease all;
+}
+.single_todo span:hover{
+  color:rgb(216, 33, 33);
+}
